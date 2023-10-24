@@ -1,0 +1,38 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  background-color: lightgray;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+}
+
+.header {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00bfff;
+  padding: 30px;
+  margin: 15px auto;
+  max-width: 400px;
+}
+.container {
+  background-color: #201F1F;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin: -15px auto;
+  max-width: 400px;
+}
+button {
+    background-color: #00bfff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+}
+
