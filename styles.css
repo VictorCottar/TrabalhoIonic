@@ -20,19 +20,31 @@ body {
   max-width: 400px;
 }
 .container {
-  background-color: #201F1F;
+  background-color: #201f1f;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 30px;
   margin: -15px auto;
   max-width: 400px;
 }
 button {
-    background-color: #00bfff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    padding: 10px 20px;
-    cursor: pointer;
-    margin: 10px;
+  background-color: #00bfff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px;
 }
-
+label {
+  font-size: 20px;
+}
+input {
+  margin: 10px;
+  width: 190px;
+}
+textarea {
+  margin: 10px;
+}
+h1 {
+  margin: 10px;
+}
