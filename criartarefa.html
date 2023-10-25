@@ -16,16 +16,18 @@
         <p id="title">ToDoListAVR</p>
     </div>
     <div class="container">
-        <h1>Criar Tarefa</h1><br>
+        <label for="data-tarefa">Data da Tarefa</label><br>
+        <input id="data-tarefa" type="date" min="2023-10-24" required><br>
+
         <label for="nome-tarefa">Nome da Tarefa</label><br>
         <input type="text" id="nome-tarefa" required><br>
 
         <label for="descricao-tarefa">Descrição da Tarefa</label><br>
         <textarea name="descricao-tarefa" cols="30" rows="5" maxlength="100" style="resize: none;"
             required></textarea><br>
-        <button id="adicionartarefa" type="submit" onclick="addTask()">Criar Tarefa</button>
+        <button id="adicionar-tarefa">Criar Tarefa</button>
     </div>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 
 </html>
