@@ -34,32 +34,34 @@ button {
   padding: 10px 20px;
   cursor: pointer;
   margin: 10px;
+  font-size: 15px;
 }
 label {
   color: #fff;
-  font-family: Raleway;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
   display: block;
   text-align: left;
-  margin: 0;
-  padding: 0;
+  margin-bottom: -25px;
+  margin-left: 9px;
 }
 input {
+  margin: 10px;
+  margin-left: 5px;
+  padding: 6px;
   background-color: #201f1f;
   color: white;
   border: none;
   width: 382px;
   height: 60px;
-  margin: 10px;
-  padding: 2px;
   font-size: 23px;
   border-radius: 8px;
 }
 textarea {
   margin: 10px;
+  margin-left: 5px;
+  padding: 6px;
   background-color: #201f1f;
   color: white;
   border: none;
@@ -70,10 +72,11 @@ textarea {
 }
 #data-tarefa {
   font-size: 25px;
+  padding: 6px;
 }
 #adicionar-tarefa {
   width: 382px;
   height: 60px;
-  flex-shrink: 0;
   font-size: 20px;
+  
 }
